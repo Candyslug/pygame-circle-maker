@@ -11,7 +11,6 @@ def main():
 
     while running:
         screen.fill((0, 0, 0, 255))
-
         # --------------------------- #
 
         center = screen.get_size()[0] / 2, screen.get_size()[1] / 2
