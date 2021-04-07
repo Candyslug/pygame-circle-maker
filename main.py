@@ -6,7 +6,6 @@ def main():
 
     pg.init()
     screen = pg.display.set_mode((500, 500))
-    pg.display.flip()
     running = True
 
     while running:
