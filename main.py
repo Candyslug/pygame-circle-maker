@@ -10,7 +10,6 @@ def main():
 
     while running:
         screen.fill((0, 0, 0, 255))
-
         # --------------------------- #
 
         center = screen.get_size()[0] / 2, screen.get_size()[1] / 2
@@ -29,12 +28,10 @@ def main():
         dotSize = 10
         pg.draw.rect(screen, (240, 100, 100), ((center[0] - dotSize / 2, center[1] - dotSize / 2, dotSize, dotSize)))
         pg.display.flip()
-
         # --------------------------- #
         for event in pg.event.get():
             if event.type ==  pg.QUIT:
                 running = False
-
     pg.quit()
 
 if __name__ == '__main__':
